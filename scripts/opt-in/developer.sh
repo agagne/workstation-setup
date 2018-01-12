@@ -8,6 +8,9 @@ brew install jq
 brew install vim --with-override-system-vi
 
 brew install coreutils
+brew install gnu-sed --with-default-names
+brew install gnu-tar --with-default-names
+
 
 brew install htop --with-ncurses
 sudo chown root:wheel /usr/local/Cellar/htop/*/bin/htop
