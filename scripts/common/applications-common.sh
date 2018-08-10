@@ -12,15 +12,15 @@ brew cask install firefox
 
 # 
 brew cask install slack
-brew cask install hipchat
 brew cask install skype
 
 # 
-
 brew cask install iterm2
 
 #
 brew cask install visual-studio-code
 
+#
+brew cask install cyberduck
 
 set -e

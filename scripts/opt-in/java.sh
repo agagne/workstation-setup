@@ -9,3 +9,6 @@ brew cask install java8
 brew install jenv
 brew install gradle
 brew install maven
+
+jenv add /Library/Java/JavaVirtualMachines/jdk1.8.*.jdk/Contents/Home
+jenv add /Library/Java/JavaVirtualMachines/jdk-10*.jdk/Contents/Home

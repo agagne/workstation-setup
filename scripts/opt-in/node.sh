@@ -5,9 +5,9 @@ echo "Installing node"
 # Node
 brew install nvm
 
-if type nvm | grep -q "shell function" 2>/dev/null; then
-    . "/usr/local/opt/nvm/nvm.sh"
-fi
+. "/usr/local/opt/nvm/nvm.sh"
+
+npm config delete prefix
 
 nvm install lts/Carbon
 nvm install lts/Boron
