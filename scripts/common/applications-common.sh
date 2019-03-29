@@ -8,6 +8,9 @@ echo "Installing applications"
 
 # Browsers
 brew cask install google-chrome
+# Disable Chromes Dark mode
+defaults write com.google.Chrome NSRequiresAquaSystemAppearance -bool Yes
+
 brew cask install firefox
 
 # 
