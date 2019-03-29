@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 # Java
 echo
-echo "Installing java 9 and 8 and java tools"
+echo "Installing openjdk 11 and 8 and java tools"
 
-brew tap caskroom/versions
-brew cask install java
-brew cask install java8
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
+brew cask install adoptopenjdk11
 
 brew install jenv
 brew install gradle
 brew install maven
 
-jenv add /Library/Java/JavaVirtualMachines/jdk1.8.*.jdk/Contents/Home
-jenv add /Library/Java/JavaVirtualMachines/jdk-10*.jdk/Contents/Home
+jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-8*.jdk/Contents/Home
+jenv add /Library/Java/JavaVirtualMachines/adoptopenjdk-11*.jdk/Contents/Home
