@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # mac stuff
 
 echo

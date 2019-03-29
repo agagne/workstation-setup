@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Gcloud
 echo
 echo "Installing gcloud sdk"

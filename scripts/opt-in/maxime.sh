@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #perso
 brew cask install spotify
 brew cask install vmware-remote-console

@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # AWS
 echo
 echo "Installing AWS cli"

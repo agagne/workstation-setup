@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Docker
 echo
 echo "Installing Docker"

@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Java
 echo
 echo "Installing java 9 and 8 and java tools"

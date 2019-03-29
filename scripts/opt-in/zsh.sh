@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo
 echo "Installing zsh and associated stuffs"
 
