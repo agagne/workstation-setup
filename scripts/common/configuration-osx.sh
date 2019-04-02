@@ -16,6 +16,7 @@ defaults write com.apple.dock autohide -bool true
 defaults write com.apple.dock tilesize -float 35
 defaults write com.apple.dock largesize -float 80
 defaults write com.apple.dock magnification -bool true
+defaults write com.apple.dock show-recents -bool false
 
 # "Require password immediately after sleep or screen saver begins"
 defaults write com.apple.screensaver askForPassword -int 1
