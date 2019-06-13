@@ -15,7 +15,7 @@ clear
 source ${MY_DIR}/scripts/common/homebrew.sh
 
 
-source ${MY_DIR}/scripts/common/application-common.sh
+source ${MY_DIR}/scripts/common/applications-common.sh
 source ${MY_DIR}/scripts/common/configuration-osx.sh
 source ${MY_DIR}/scripts/common/configuration.sh
 
